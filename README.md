@@ -72,7 +72,10 @@ Integration tests are in `RoutingControllerIntegrationTest` and test the API end
 
 ### Manual Testing
 
-You can also test the API manually using curl or any HTTP client. Example:
+You can also test the API manually using curl: 
 ```
 curl -X GET http://localhost:8080/routing/CZE/ITA
 ```
+
+or using swagger-ui: 
+[swagger-ui](http://localhost:8080/swagger-ui/index.html#/routing-controller/getRoute)
