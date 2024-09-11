@@ -33,7 +33,7 @@ To build and run the application from the command line, follow these steps:
 
 ## Testing
 
-This project includes both unit tests and integration tests. To run all tests, use the following command:
+This project includes both unit tests and integration tests. Tests are run automatically when building the project with Maven.
 
 
 ### Unit Tests
