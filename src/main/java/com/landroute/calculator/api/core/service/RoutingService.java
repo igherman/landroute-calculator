@@ -34,7 +34,7 @@ public class RoutingService {
 		Map<String, String> parentMap = new HashMap<>();
 		Set<String> visited = new HashSet<>();
 
-		queue.offer(start.getCca3());
+		queue.add(start.getCca3());
 		visited.add(start.getCca3());
 
 		while (!queue.isEmpty()) {
@@ -47,7 +47,7 @@ public class RoutingService {
 			Country currentCountry = cca3CountryMap.get(current);
 			for (String neighbor : currentCountry.getBorders()) {
 				if (!visited.contains(neighbor)) {
-					queue.offer(neighbor);
+					queue.add(neighbor);
 					visited.add(neighbor);
 					parentMap.put(neighbor, current);
 				}
