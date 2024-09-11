@@ -24,14 +24,12 @@ To build and run the application from the command line, follow these steps:
 
 2. **Run the application**:
    ```
-   java -jar target/your-application-name.jar
+   java -jar target/calculator.api-0.0.1-SNAPSHOT.jar
    ```
-   Replace `your-application-name.jar` with the actual name of the generated JAR file.
-
-Alternatively, you can use the Maven `spring-boot:run` goal to build and run the application in a single step:
-```
-mvn spring-boot:run
-```
+   or use the Maven `spring-boot:run` goal to build and run the application in a single step:
+   ```
+   mvn clean package spring-boot:run
+   ```
 
 ## Testing
 
